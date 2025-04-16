@@ -4,3 +4,6 @@ Write a recipe webpage with HTML
 
 2. Mapo Tofu Recipe
     src=https://thewoksoflife.com/ma-po-tofu-real-deal/
+
+3. Hot and Sour Soup Recipe
+    src=https://thewoksoflife.com/hot-sour-soup/
