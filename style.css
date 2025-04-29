@@ -1,0 +1,130 @@
+body {
+    width: 1000px;
+    margin: 25px auto;
+    background-color: #BB175E;
+}
+
+.main-body {
+    background-size: 1000px;
+    background-color: pink;
+    border: dotted 10px;
+    border-radius: 50px;
+    padding: 25px 50px;
+}
+
+.homepage-title {
+    border: 6px solid black;
+    text-align: center;
+    font-family:'Brush Script MT', 'Lucida Handwriting', Cursive;
+    font-size: 55px;
+    transition: 1s;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.homepage-title::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 234, 255, 0.3), rgba(0, 0,0,0));
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+.homepage-title:hover {
+    background-color: rgb(0, 174, 255);
+    color: black;
+    box-shadow: 0 0 15px rgb(0, 174, 255), 0 0 30px, rgb(0, 174, 255), 0 0 45px rgb(0, 174, 255);
+
+}
+
+.homepage-title:hover::before {
+    opacity: 1;
+}
+
+h1 {
+    color: auto;
+    font-size:40px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: double 10px;
+    font-family: 'Lucida Console', 'Courier New', monospace;
+}
+
+h2 {
+    color: white;
+    background-color: black;
+    font-size: 35px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    border: 10px double white;
+    margin-bottom: -10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+    padding: 0 0 0 20px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-body .recipe-list-item li a {
+    color: black;
+    font-size: 40px;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+a:hover {
+    background-color: yellow;
+    font-style: italic;
+}
+
+.header-container {
+    height: 50px;
+}
+
+.header-link {
+    background-color: white;
+    width: 100px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 2.5px;
+    border: groove;
+}
+
+p {
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align:justify;
+    padding: 0 0 0 40px;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
